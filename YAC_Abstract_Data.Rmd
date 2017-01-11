@@ -1,0 +1,27 @@
+---
+title: "YAC Abstract Data"
+author: "J Ritchie"
+date: "10/01/2017"
+output: html_document
+---
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+This is a summary of YAC data to develop an abstract for the 2017 UK RA.
+
+The data describe `r Num_patients` patients offered an appointment in the SRFT YAC
+
+Of the `r Never_attented` have not attended the YAC
+
+`r Attended_before` patients had previously attended a renal clinic at SRFT (e.g. general nephrology /transplant / AKCS) and `r Never_attented_clinic_before` had never been seen by the SRFT renaql services
+
+Of the `r Never_attented_clinic_before` patients referred to the YAC who were not known to the renal services at SRFT, `r Further_clinic` were subsequently seen in another renal service at SRFT following their initial YAC 
+
+## Demography
+
+The mean age at time of first appointment was `r Mean.age`+/-`r SD.age` years (median `r Median.age`)
+
+Ethnicity data are not described
+
+Over the observed period, `r Change_postcode` patients moved to a different postcode
+
